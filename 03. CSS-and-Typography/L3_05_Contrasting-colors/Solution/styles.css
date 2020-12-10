@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+article {
+    background-color: rgb(51, 102, 153);
+    border: solid; 
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Helvetica, sans-serif';    
+}
+h1 {
+    font-family: 'Georgia, Times New Roman, Times, serif';
+}

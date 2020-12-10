@@ -1,0 +1,11 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2 {
+    font-display: 'Cormorant Garamond', serif;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: bold;
+}

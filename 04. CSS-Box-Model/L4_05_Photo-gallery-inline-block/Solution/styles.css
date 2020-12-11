@@ -1,0 +1,12 @@
+body {
+    background: lightgray;
+}
+li {
+    display: inline-block;
+    width: 25%;
+}
+img {
+    border: 0.4rem black solid;  
+    padding: 10px; 
+    background-color: white;
+}

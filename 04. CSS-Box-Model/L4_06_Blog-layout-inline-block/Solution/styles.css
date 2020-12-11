@@ -1,0 +1,22 @@
+body {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+a {
+    font: 16px Arial Helvetica sans-serif;
+    width: 30%;
+}
+img {
+    display: block;
+    align-self: left;
+    width: 70%;
+}
+h1, h2 {
+    font-family: Georgia, Times New Roman, Times, serif;
+}
+aside {
+    float: right;
+}

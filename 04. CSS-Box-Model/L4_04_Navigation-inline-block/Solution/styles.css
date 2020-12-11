@@ -1,0 +1,26 @@
+html {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+li, a {
+    padding: 5px;
+    display: inline-block;
+    float: center;
+    color: green;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    font: 1em/1,2 Georgia, Times New Roman, Times, serif;
+}

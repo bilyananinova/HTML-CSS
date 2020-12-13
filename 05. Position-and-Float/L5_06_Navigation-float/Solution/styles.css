@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    width: 80%;
+    margin: 3rem auto;
+    font: 16px/1.2em Georgia, serif;
+}
+
+h1, h2, h3 {
+    font: 1em/1.2em Georgia, serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, p {
+    padding: 0.5em;
+}
+
+.site-header {
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+header > p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.navigation ul li {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    padding: 0.5em;
+    clear: both;
+}
+
+main {
+    padding: 2em;
+    width: 65%;
+    display: inline-block;
+}
+
+img {
+    border: 4px solid black;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.25);
+    padding: 0.5em;
+   
+}
+
+article > header > h1 {
+    padding: 1em 0;
+}
+
+.second-picture {
+    float: right;
+    margin: 0.5em;
+}
+
+.first-picture {
+    float: left;
+    margin: 0.5em;
+}
+
+blockquote {
+    opacity: 0.8;
+    float: right;
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 2px solid gray;
+    width: 50%;
+}
+
+p, blockquote {
+    padding-bottom: 1.5em;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    vertical-align: top;
+    display: inline-block;
+}
+
+aside nav ul li a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+aside nav ul li {
+    list-style: square;
+}

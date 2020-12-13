@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(238, 238, 238);
+    
+}
+
+.card {
+    width: 500px;
+    height: auto;
+    border-radius: 0.8em;
+    background: rgb(255, 255, 255);
+    box-shadow: 11px 11px 50px 5px rgba(0,0,0,0.5);  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.text {
+    font: 1em/1.2 'Georgia', serif;
+    margin: 3em 1em;}
+
+
+button {
+    float: right;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+button a {
+    text-decoration: none;
+    background: rgb(0, 153, 0);
+    color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 0.2em
+}

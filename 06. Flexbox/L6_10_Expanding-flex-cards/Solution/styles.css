@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    margin: 10em;
+    width: 80rem;
+    height: 20rem;
+}
+
+.cards {
+    display: flex;
+    flex: 0 1 15%;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
+    margin: 0.5em;
+}
+
+.big {
+    flex: 0 1 38%;
+}
+

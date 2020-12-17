@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+h1, h2, p {
+    padding: 0.5em;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    padding: 2em;
+}
+
+footer {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    position: sticky;
+    top: 100vh;
+}
+

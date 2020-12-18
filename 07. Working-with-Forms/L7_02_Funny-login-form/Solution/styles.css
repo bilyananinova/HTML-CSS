@@ -1,0 +1,94 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css"); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+}
+
+body, form, select, input, textarea, option {
+    font: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #11eee7, #00d9f9, #00c1ff, #00a5ff, #0e83ff, #6870ff, #9f53f4, #cc14dc, #d413d9, #db12d5, #e213d2, #e815cf);
+}
+
+.container {
+    display: flex;
+    margin: 8em 20em; 
+}
+
+form {
+    background: white;
+    display: block;
+    border-radius: 0.5em;
+}
+
+form fieldset {
+    margin: 2em;
+    padding: 5em;
+    display: block;
+    border: none;
+}
+
+form legend {
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form a {
+    border: 1px solid rgb(250, 4, 188);
+    border-radius: 0.3em;
+    padding: 0.5em 1.5em;
+    margin: 1.5em;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    align-items: center;
+    margin: 1.0em;
+}
+
+fieldset label {
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+form input {
+    margin: 0.5em;
+    display: block;
+    outline: none;
+    width: 100%;
+    padding: 0.7rem 1rem;
+    background: #F9F9F9;
+    border: 1px solid rgb(250, 4, 188);
+    border-radius: 0.5em;
+}
+
+input[type="submit"] {
+    flex-basis: 100%;
+    border-radius: 0.5em;
+    border: none;
+    background: black;
+    color: white;
+}
+
+a:focus,
+a:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right top, #11eee7, #00d9f9, #00c1ff, #00a5ff, #0e83ff, #6870ff, #9f53f4, #cc14dc, #d413d9, #db12d5, #e213d2, #e815cf);}
+}

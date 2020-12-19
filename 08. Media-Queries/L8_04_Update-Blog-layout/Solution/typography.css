@@ -1,0 +1,15 @@
+body {
+    background: rgb(238, 238, 238);
+    margin: 3rem auto;
+    font: 16px/1.2em Georgia, serif;
+    max-width: 80rem;
+}
+
+h1, h2, h3 {
+    font: 1em/1.2em Georgia, serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, p {
+    padding: 0.5em;
+}

@@ -1,0 +1,62 @@
+body {
+    margin: 2em;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: darkgrey;
+}
+
+table {
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(221, 221, 221);
+}
+
+table tr:nth-child(even) td {
+    background-color: rgb(255, 255, 255);
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgb(238, 238, 238);
+}
+
+@media (max-width: 600px) {
+
+    th, td {
+        margin: 0.3em;
+        padding: 0.5em;
+    }
+
+    thead {
+        display: none;
+    }
+
+    table tbody td {
+        display: flex;
+    }
+
+    table tbody:before {
+        display: block;
+        margin: 1em;
+    }
+
+    table tbody td:first-child:before {
+        content: 'First Name';
+        font-weight: bold;
+    }
+
+    table tbody td:nth-child(2):before {
+        content: 'Last Name';
+        font-weight: bold;
+    }
+
+    table tbody td:last-child:before {
+        content: 'Job Title';
+        font-weight: bold;
+        
+    }
+}

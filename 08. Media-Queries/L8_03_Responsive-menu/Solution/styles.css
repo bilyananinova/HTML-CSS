@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 5em;
+    max-width: 80rem;
+    background: rgb(238, 238, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid black;
+    padding-bottom: 1em;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.site-nav {
+    display: block;
+    margin-left: auto;
+    background: rgb(255, 255, 255);
+    padding: 0.5em;
+}
+
+.site-nav > ul {
+    display: flex;
+}
+
+.site-nav li {
+    display: block;
+    list-style: none outside;    
+}
+
+.site-nav > nav > ul > li {
+    padding: 0.5em 1em;
+
+}
+.site-header a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    line-height: 1;
+    margin: 0.2em;
+    background: rgb(0, 0, 0);
+    border-radius: 0.5em;
+}
+
+.site-header a:focus,
+.site-header a:hover {
+    color: purple;
+    background: plum;
+    text-decoration: underline;
+}
+
+.menu {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu:checked + .site-header {
+    display: block;
+} 
+
+/* phones */
+@media (max-width: 600px) {
+
+    header {
+        display: block;
+    }
+
+    .site-header {
+        padding-left: 2.5em;
+    }
+
+    .menu-button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+
+    .menu-button .close {
+        display: none;
+        flex-basis: 4%;
+    }
+
+    .site-nav {
+        display: none;
+        margin-left: auto;
+    }
+    
+    .site-nav ul {
+        display: block;
+    }
+
+    .site-nav ul li {
+        padding: 0.3em 0;
+    }
+
+    .menu:checked + .site-header nav {
+        display: block;
+    } 
+
+    .menu:checked + .site-header .close {
+        display: none;
+
+    }
+
+    .menu + .site-header {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) {
+
+    
+
+    
+}
